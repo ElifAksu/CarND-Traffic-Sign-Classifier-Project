@@ -36,7 +36,9 @@ Train images as follows:
 #### Preprocessed the image data
 As a first step, I decided to convert the images to grayscale and normalized in order to increase accuracy. When the images become grayscale and normalized it is easier to train them. 
 Here is an example of a traffic sign image before and after grayscaling.
+
 <img src="./graynorm.png"  height ="40%" width="60%">
+
 I generated additional data with using some preprocessing steps. These steps are sharping the image, flipping the image and rotating the image. 
 Some samples of pre-processed images can be seen as following:
 
