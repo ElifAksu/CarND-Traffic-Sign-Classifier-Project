@@ -29,9 +29,7 @@ The shape of the traffic signs images is 32x32x1. There is 43 classes into datas
   <img width="800" height="800" src="./dist.png">
 </p>
 Train images as follows: 
-<p align="center">
-  <img width="1000" height="1000" src="./labels_vis.png">
-</p>
+<img src="./labels_vis.png"  height ="40%" width="60%">
 
 ### Design and Test a Model Architecture
 
