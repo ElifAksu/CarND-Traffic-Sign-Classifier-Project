@@ -26,31 +26,22 @@ The size of the dataset(train, test,valid) is as follows:
 
 The shape of the traffic signs images is 32x32x1. There is 43 classes into datasets. I used the pandas library to calculate summary statistics of the traffic signs data set. The distribution of the images according to the classes is shown in below. 
 <p align="center">
-  <img width="800" height="1000" src="./dist.png">
+  <img width="800" height="800" src="./dist.png">
 </p>
 Train images as follows: 
 <p align="center">
-  <img width="800" height="1000" src="./labels_vis.png">
+  <img width="1000" height="1000" src="./labels_vis.png">
 </p>
 
 ### Design and Test a Model Architecture
 
 #### Preprocessed the image data
 As a first step, I decided to convert the images to grayscale and normalized in order to increase accuracy. When the images become grayscale and normalized it is easier to train them. 
-
 Here is an example of a traffic sign image before and after grayscaling.
-
 <img src="./graynorm.png"  height ="40%" width="60%">
-
-
 I generated additional data with using some preprocessing steps. These steps are sharping the image, flipping the image and rotating the image. 
-
-
 Some samples of pre-processed images can be seen as following:
-
 <img src="./prepro.png"  height ="40%" width="60%">
-
-
 #### Model architecture 
 I have modified the original LeNet architecture. I have added 1 conv layer and 1 fully conv layer to the original LeNet model.
 
