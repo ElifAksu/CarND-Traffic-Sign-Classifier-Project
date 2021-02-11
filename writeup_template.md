@@ -25,12 +25,13 @@ The size of the dataset(train, test,valid) is as follows:
 * Test set : 50520
 
 The shape of the traffic signs images is 32x32x1. There is 43 classes into datasets. I used the pandas library to calculate summary statistics of the traffic signs data set. The distribution of the images according to the classes is shown in below. 
-
-<img src="./dist.png"  height ="40%" width="60%">
-
+<p align="center">
+  <img width="800" height="400" src="./dist.png">
+</p>
 Train images as follows: 
-<img src="./labels_vis.png"  height ="40%" width="60%">
-
+<p align="center">
+  <img width="800" height="400" src="./labels_vis.png">
+</p>
 
 ### Design and Test a Model Architecture
 
