@@ -96,6 +96,10 @@ In iterative process, I firstly used LeNet, however, model is getting overfittin
 I have found 5 images from the web,which can be seen at below.And the testing accuracy is 80% for those images (shown below):
 <img src="./sign_test.png"  height ="40%" width="60%">
 
+These images were chosen because they were clear and included in the training data set. 
+If image is not in the training sample, it will be difficult to find the right sign. Also, there is nothing to obscure the image due to the weather, such as snow and rain.
+The only thing is that the top and bottom of the third and fourth images are slightly cut off, which can pose a problem for classification.
+		
 
 #### Predictions
 
@@ -103,9 +107,11 @@ My Data Set Accuracy = 0.800
 The resulted labels are: 
 ['Bumpy road', 'Ahead only', 'Go straight or left', 'Speed limit (30km/h)', 'Priority road']
 
+As it is expected, these images are correctly labelled.
+
 #### Softmax probabilities for each prediction.
 
-Instead of table I used figures to represent softmax probabilities for each test images
+Instead of table, I used figures to represent softmax probabilities for each test images
 Here results:
 <img src="./softmax_5.png"  height ="100%" width="100%">
 
