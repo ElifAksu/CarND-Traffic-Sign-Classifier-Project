@@ -105,7 +105,7 @@ The resulted labels are:
 
 Instead of table I used figures to represent softmax probabilities for each test images
 Here results:
-<img src="./softmax_5.png"  height ="80%" width="80%">
+<img src="./softmax_5.png"  height ="100%" width="100%">
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
