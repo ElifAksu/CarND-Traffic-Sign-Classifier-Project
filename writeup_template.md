@@ -39,7 +39,9 @@ Here is an example of a traffic sign image before and after grayscaling.
 <img src="./graynorm.png"  height ="40%" width="60%">
 I generated additional data with using some preprocessing steps. These steps are sharping the image, flipping the image and rotating the image. 
 Some samples of pre-processed images can be seen as following:
+
 <img src="./prepro.png"  height ="40%" width="60%">
+
 #### Model architecture 
 I have modified the original LeNet architecture. I have added 1 conv layer and 1 fully conv layer to the original LeNet model.
 
