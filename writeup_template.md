@@ -2,13 +2,12 @@
 
 ## Writeup
 
-### This project is classifier for detect traffic signs
 
+In this project the main purpose is creating a classifier to detec traffic signs.
 ---
 
 
-
-The goals / steps of this project are the following:
+The steps of this project are the following:
 * Load the data set 
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
@@ -18,7 +17,7 @@ The goals / steps of this project are the following:
 
 ---
 
-####  Load the dataset /Data Set Summary & Exploration
+####  Data Set Summary & Exploration
 The size of the dataset(train, test,valid) is as follows:
 * Training set : 139196
 * Validation set : 17640
@@ -26,20 +25,23 @@ The size of the dataset(train, test,valid) is as follows:
 
 The shape of the traffic signs images is 32x32x1. There is 43 classes into datasets. I used the pandas library to calculate summary statistics of the traffic signs data set. The distribution of the images according to the classes is shown in below. 
 <p align="center">
-  <img width="1000" height="800" src="./dist.png">
+  <img width="800" height="800" src="./dist.png">
 </p>
-Train images as follows: 
+Some of the images in the dataset can be seen as following: 
 <img src="./labels_vis.png"  height ="40%" width="60%">
 
-### Design and Test a Model Architecture
+### Model Architecture Design and Test 
 
-#### Preprocessed the image data
+#### Pre-processig the image 
 As a first step, I decided to convert the images to grayscale and normalized in order to increase accuracy. When the images become grayscale and normalized it is easier to train them. 
 Here is an example of a traffic sign image before and after grayscaling.
 
 <img src="./graynorm.png"  height ="40%" width="60%">
 
-I generated additional data with using some preprocessing steps. These steps are sharping the image, flipping the image and rotating the image. 
+I generated additional data with using some preprocessing steps. These steps are 
+- sharping the image, 
+- flipping the image,
+- rotating the image. 
 Some samples of pre-processed images can be seen as following:
 
 <img src="./prepro.png"  height ="40%" width="60%">
@@ -86,7 +88,7 @@ My final model results were:
 * validation set accuracy of **%94.3**
 * test set accuracy of **%92.3**
 
-In iterative process, I firstly used LeNet, however, model is getting overfitting. Then i added some layers. Also, I have tuned  number of images in dataset, learning rate, batch size and epoch. I obtained specified parameters at above.
+In iterative process, I firstly used LeNet, however, model is getting overfitting. Then i added some layers. Also, I have tuned  number of images in dataset, learning rate, batch size and epoch. I obtained parameters at above.
  
 
 ### Test a Model on New Images
@@ -107,7 +109,6 @@ Instead of table I used figures to represent softmax probabilities for each test
 Here results:
 <img src="./softmax_5.png"  height ="100%" width="100%">
 
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-#### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+
 
 
